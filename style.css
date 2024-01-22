@@ -14,7 +14,7 @@ nav {
   /* background-color: white; */
   background: linear-gradient(
     90deg,
-    rgba(73, 75, 84, 1) 0%,
+    rgba(73, 75, 84, 0.782) 0%,
     rgba(213, 179, 242, 1) 100%
   );
   z-index: 5;
@@ -83,6 +83,7 @@ nav .logo h1 {
   display: flex;
   margin-top: 30px;
 }
+
 .picture .text h1 {
   background: linear-gradient(
     90deg,
@@ -132,8 +133,6 @@ nav .logo h1 {
 }
 .about {
   background-color: white;
-  width: 85vw;
-  margin: auto;
 }
 .about .text h1 {
   color: black;
@@ -141,16 +140,19 @@ nav .logo h1 {
   font-size: 40px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 600;
+  padding-top: 90px;
 }
 .about .text h1 span {
   color: blue;
 }
+.about .text h1:hover {
+  color: green;
+  text-shadow: 10px 30px silver;
+}
 .frame {
   display: flex;
   align-items: flex-start;
-  justify-content: space-around;
-  width: 100%;
-  height: auto;
+  justify-content: center;
   margin-top: 60px;
 }
 .ui_ux {
@@ -167,7 +169,7 @@ nav .logo h1 {
   background-color: white;
 }
 .ui_ux h2 {
-  font-size: 20px;
+  font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: left;
 }
@@ -197,7 +199,7 @@ nav .logo h1 {
   background-color: white;
 }
 .backend h2 {
-  font-size: 20px;
+  font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: left;
 }
@@ -220,20 +222,15 @@ nav .logo h1 {
   flex-direction: column;
   background-color: white;
   margin-right: 32px;
-  height: 350px;
-  height: auto;
-  justify-content: center;
-  align-items: center;
 }
 .frontend > img {
   border-radius: 10%;
   background-color: white;
-  display: block;
   width: 200px;
   height: 200px;
 }
 .frontend h2 {
-  font-size: 20px;
+  font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: left;
 }
@@ -256,14 +253,13 @@ nav .logo h1 {
   flex-direction: column;
   background-color: white;
   margin-right: 32px;
-  height: 350px;
 }
 .web img {
   border-radius: 10%;
   background-color: white;
 }
 .web h2 {
-  font-size: 20px;
+  font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: left;
 }
@@ -280,12 +276,29 @@ nav .logo h1 {
   height: 210px;
   transition: all 0.25s ease-in-out;
 }
-.work {
+.copyright {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  margin-right: 50px;
+}
+.copyright p {
+  color: gray;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+.about .link_pic a img {
+  border-radius: 50%;
+}
+.about .link_pics a img {
+  border-radius: 50%;
+}
+.skill {
   background-color: #edf2f8;
 }
-.work h1 {
+.skill h1 {
   color: black;
 }
-.work h1 span {
+.skill h1 span {
   color: blue;
 }
