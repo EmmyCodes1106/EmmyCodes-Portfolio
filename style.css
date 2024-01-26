@@ -298,7 +298,7 @@ nav .logo h1 {
 }
 .skill h1 {
   color: black;
-}
-.skill h1 span {
-  color: blue;
+  font-family: cursive;
+  font-size: 50px;
+  text-align: center;
 }
